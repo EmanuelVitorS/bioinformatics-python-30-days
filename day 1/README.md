@@ -1,14 +1,14 @@
-# Day 1 - DNA Sequence Summary
+Day 1 - DNA Sequence Summary
 
-## Objective
+Objective
 
 Create a Python function that displays:
 
-- Sequence name
-- Sequence length
-- GC percentage
+* Sequence name
+* Sequence length
+* GC percentage
 
-### Example
+Example
 
 Input
 
