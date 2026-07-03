@@ -1,8 +1,6 @@
-30 Days of Python for Bioinformatics
+Hi! I'm Emanuel, a Biomedical Science student transitioning into Bioinformatics. This repository documents my 30-day journey of learning Python through bioinformatics projects and coding challenges.
 
-This repository documents my journey learning Python for Bioinformatics.
-
-I am a Biomedical Science student focusing on Bioinformatics, and every day I build a small project or solve a biological programming problem.
+My goal is to strengthen my programming skills while applying them to real biological problems. Every day, I build a small project or solve a bioinformatics-related challenge to improve my understanding of computational biology.
 
 Topics:
 
