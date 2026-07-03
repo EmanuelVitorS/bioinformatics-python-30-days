@@ -4,7 +4,7 @@ This repository documents my journey learning Python for Bioinformatics.
 
 I am a Biomedical Science student focusing on Bioinformatics, and every day I build a small project or solve a biological programming problem.
 
-Topics
+Topics:
 
 * DNA sequence analysis
 * FASTA parsing
@@ -18,6 +18,6 @@ Topics
 * Basic algorithms
 * Biological data analysis
 
-Progress
+Progress:
 
 - ✅ Day 1
