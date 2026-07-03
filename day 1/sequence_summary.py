@@ -25,7 +25,7 @@ def contar_gc(dna):
     return tamanho, gc
 
 
-arquivo = r"E:\workspace\code\teste_fasta.txt"
+arquivo = r""
 
 sequencias = ler_fasta(arquivo)
 
