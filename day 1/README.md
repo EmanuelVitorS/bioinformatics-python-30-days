@@ -1,6 +1,6 @@
 Day 1 - DNA Sequence Summary
 
-Objective
+Objective:
 
 Create a Python function that displays:
 
@@ -8,7 +8,7 @@ Create a Python function that displays:
 * Sequence length
 * GC percentage
 
-Example
+Example:
 
 Input
 
