@@ -1,6 +1,5 @@
 from pathlib import Path
 
-
 def read_fasta(file_path):
     """Read a FASTA file and return a dictionary of sequences."""
 
@@ -49,7 +48,6 @@ def calculate_at(sequence):
     at_content = ((count_a + count_t) / length) * 100
 
     return length, at_content   
-
 
 def count_bases(sequence):
     """Count the occurrences of each DNA base in the sequence."""

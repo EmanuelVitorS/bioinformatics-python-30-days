@@ -37,13 +37,12 @@ def calculate_gc(sequence):
 
 
 def main():
-    file_path = Path(r"Enter the FASTA file path: "))
+    file_path = Path(r"Enter the FASTA file path: ")
 
     sequences = read_fasta(file_path)
 
     for name, sequence in sequences.items():
         length, gc = calculate_gc(sequence)
-
         print(f"\nSequence: {name}")
         print(f"Length: {length} bp")
         print(f"GC Content: {gc:.2f}%")
