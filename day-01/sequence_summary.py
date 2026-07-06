@@ -1,37 +1,53 @@
 from pathlib import Path
 
-def ler_fasta(arquivo):
-    sequencias = {}
-    nome = ""
 
-    with open(arquivo, "r") as f:
-        for linha in f:
-            linha = linha.strip()
+def read_fasta(file_path):
+    """Read a FASTA file and return a dictionary of sequences."""
 
-            if linha.startswith(">"):
-                nome = linha[1:]
-                sequencias[nome] = ""
+    sequences = {}
+    name = ""
+
+    with open(file_path, "r") as file:
+        for line in file:
+            line = line.strip()
+
+            if line.startswith(">"):
+                name = line[1:]
+                sequences[name] = ""
             else:
-                sequencias[nome] += linha
+                sequences[name] += line
 
-    return sequencias
-
-
-def contar_gc(dna):
-    g = dna.count("G")
-    c = dna.count("C")
-    tamanho = len(dna)
-    gc = (g + c) / tamanho * 100
-    return tamanho, gc
+    return sequences
 
 
-arquivo = r""
+def calculate_gc(sequence):
+    """Return sequence length and GC percentage."""
 
-sequencias = ler_fasta(arquivo)
+    length = len(sequence)
 
-for nome, dna in sequencias.items():
-    tamanho, gc = contar_gc(dna)
+    if length == 0:
+        return 0, 0
 
-    print(f"Nome: {nome}")
-    print(f"Tamanho: {tamanho}")
-    print(f"GC: {gc:.2f}%\n")
+    count_g = sequence.count("G")
+    count_c = sequence.count("C")
+
+    gc_content = ((count_g + count_c) / length) * 100
+
+    return length, gc_content
+
+
+def main():
+    file_path = Path(r"E:\bioinformatics-python-30-days\teste_100.fasta.txt")
+
+    sequences = read_fasta(file_path)
+
+    for name, sequence in sequences.items():
+        length, gc = calculate_gc(sequence)
+
+        print(f"\nSequence: {name}")
+        print(f"Length: {length} bp")
+        print(f"GC Content: {gc:.2f}%")
+
+
+if __name__ == "__main__":
+    main()
