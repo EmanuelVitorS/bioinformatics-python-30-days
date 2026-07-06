@@ -28,13 +28,13 @@ ATGCGATCGATCGATCGATCG
 
 Example Output:
 
-Sequence: seq1
-Status: Invalid 
-Errors Found: 1
-Position 11: X
+* Sequence: seq1
+* Status: Invalid 
+* Errors Found: 1
+* Position 11: X
 
-Sequence: seq2
-Status: Valid 
+* Sequence: seq2
+* Status: Valid 
 
 Concepts Learned:
 

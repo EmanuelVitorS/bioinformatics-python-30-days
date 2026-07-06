@@ -16,7 +16,7 @@ Sequence: BRCA1
 Length: 120 bp
 
 Base Counts
------------
+
 A: 25
 T: 31
 G: 34
