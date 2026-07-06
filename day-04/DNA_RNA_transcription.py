@@ -28,7 +28,7 @@ def transcribe_dna(sequence):
     return sequence.replace("T", "U") 
 
 def main(): 
-    file_path = Path(r"E:\bioinformatics-python-30-days\teste_100.fasta.txt") 
+    file_path = Path(r"Enter the FASTA file path: ") 
     sequences = read_fasta(file_path) 
     for name, sequence in sequences.items(): 
         errors = find_errors(sequence) 
