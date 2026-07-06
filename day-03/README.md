@@ -6,44 +6,42 @@ This project reads DNA sequences from a FASTA file and validates whether they co
 
 If invalid characters are found, the program reports:
 
-*The sequence name
-*Validation status
-* umber of errors
-* osition of each invalid character
+* The sequence name
+* Validation status
+* Number of errors
+* Position of each invalid character
 
 Features:
 
-*Read FASTA files
-*Validate DNA sequences
-*Detect invalid nucleotides
-*Report error positions
+* Read FASTA files
+* Validate DNA sequences
+* Detect invalid nucleotides
+* Report error positions
 
 Example Input:
 
-```text
 >seq1
 ATGCGTACGTXAGCTAGCTAGC
 
 >seq2
 ATGCGATCGATCGATCGATCG
-```
 
 Example Output:
 
 Sequence: seq1
-Status: Invalid ❌
+Status: Invalid 
 Errors Found: 1
 Position 11: X
 
 Sequence: seq2
-Status: Valid ✅
+Status: Valid 
 
 Concepts Learned:
 
-- FASTA parsing
-- Functions
-- Loops
-- enumerate()
-- Lists
-- Tuples
-- Input validation
+* FASTA parsing
+* Functions
+* Loops
+* enumerate()
+* Lists
+* Tuples
+* Input validation
