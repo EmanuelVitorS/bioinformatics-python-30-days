@@ -37,7 +37,7 @@ def calculate_gc(sequence):
 
 
 def main():
-    file_path = Path(r"E:\bioinformatics-python-30-days\teste_100.fasta.txt")
+    file_path = Path(r"Enter the FASTA file path: "))
 
     sequences = read_fasta(file_path)
 
