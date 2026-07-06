@@ -15,7 +15,7 @@ Example:
 
 * Length: 120 bp
 
-* GIBase Counts:
+* Base Counts:
 
 * A: 25
 * T: 31
