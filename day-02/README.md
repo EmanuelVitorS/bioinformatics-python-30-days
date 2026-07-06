@@ -11,24 +11,24 @@ This program reads DNA sequences from a FASTA file and reports:
 
 Example:
 
-Sequence: BRCA1
+* Sequence: BRCA1
 
-Length: 120 bp
+* Length: 120 bp
 
-Base Counts
+* GIBase Counts:
 
-A: 25
-T: 31
-G: 34
-C: 30
+* A: 25
+* T: 31
+* G: 34
+* C: 30
 
-GC Content: 53.33%
-AT Content: 46.67%
+* GC Content: 53.33%
+* AT Content: 46.67%
 
 Concepts learned:
 
-Dictionaries
-Loops
-Functions
-FASTA parsing
-String methods
+* Dictionaries
+* Loops
+* Functions
+* FASTA parsing
+* String methods
