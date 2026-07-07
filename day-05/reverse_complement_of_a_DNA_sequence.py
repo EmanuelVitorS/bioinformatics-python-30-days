@@ -41,7 +41,7 @@ def reverse_complement(sequence):
     return reverse_sequence(complement_dna(sequence))
 
 def main():
-    file_path = Path(r"E:\bioinformatics-python-30-days\teste_100.fasta.txt")
+    file_path = Path(r"Enter the path to your FASTA file here")
     sequences = read_fasta(file_path)
 
     for name, sequence in sequences.items():
