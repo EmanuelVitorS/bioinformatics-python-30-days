@@ -1,20 +1,21 @@
-Day 04 - DNA to RNA Transcription
+# Day 04 - DNA to RNA Transcription
 
-Description:
+# Description:
 
 This project reads DNA sequences from a FASTA file, validates each sequence, and transcribes valid DNA sequences into RNA.
 
 If a sequence contains invalid nucleotide characters, the program reports the number of errors and the position of each invalid character instead of performing the transcription.
 
-Features:
+# Features:
 
 * Read DNA sequences from a FASTA file
 * Validate DNA sequences
 * Detect invalid nucleotide characters
 * Report invalid nucleotide positions
 * Transcribe DNA into RNA
+* Process multiple DNA sequences
 
-Example Input:
+# Input (FASTA):
 
 >seq1
 ATGCGTACGTTAGC
@@ -22,7 +23,7 @@ ATGCGTACGTTAGC
 >seq2
 ATGCGTXCGTTAGC
 
-Example Output:
+# Output:
 
 Sequence: seq1
 Status: Valid ✅
@@ -40,13 +41,27 @@ Errors Found: 1
 Position 7: X
 --------------------------------------------------
 
-Concepts Learned:
+# Concepts Learned:
 
-* FASTA parsing
 * String manipulation
 * DNA validation
 * DNA to RNA transcription
-* Error detection
-* Functions
-* Loops
+
+# Concepts Practiced:
+
 * Dictionaries
+* Loops
+* Functions
+* FASTA parsing
+* String methods
+* enumerate()
+* Lists
+* Tuples
+* Input validation
+* Error detection
+* Error handling
+
+# Used Technologies:
+
+* Python 3
+* pathlib

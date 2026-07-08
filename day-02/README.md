@@ -1,6 +1,6 @@
-Day 02 - DNA Base Counter
+# Day 02 - DNA Base Counter
 
-Description:
+# Description:
 
 This program reads DNA sequences from a FASTA file and reports:
 
@@ -8,27 +8,41 @@ This program reads DNA sequences from a FASTA file and reports:
 * GC content
 * AT content
 * Number of A, T, G and C bases
+* Process multiple DNA sequences
 
-Example:
+# Input (FASTA):
 
-* Sequence: BRCA1
+Sequence: BRCA1
 
-* Length: 120 bp
+Length: 120 bp
 
-* Base Counts:
+Base Counts:
 
-* A: 25
-* T: 31
-* G: 34
-* C: 30
+A: 25
+T: 31
+G: 34
+C: 30
 
-* GC Content: 53.33%
-* AT Content: 46.67%
+GC Content: 53.33%
+AT Content: 46.67%
 
-Concepts learned:
+# Concepts learned:
 
+* AT content calculation
+* DNA base counting
+* Returning dictionaries from functions
+
+# Concepts Practiced:
+
+* Functions
 * Dictionaries
 * Loops
-* Functions
+* File handling
 * FASTA parsing
-* String methods
+* String methods (`count()`)
+* Dictionary iteration
+
+## Used Technologies
+
+* Python 3
+* pathlib

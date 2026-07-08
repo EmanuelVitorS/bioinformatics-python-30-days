@@ -1,22 +1,57 @@
-Day 1 - DNA Sequence Summary
+# Day 01 - DNA Sequence Summary
 
-Objective:
+# Description: 
 
-Create a Python function that displays:
+This project reads DNA sequences from a FASTA file and displays basic information about each sequence.
+
+For every sequence, the program reports:
 
 * Sequence name
 * Sequence length
-* GC percentage
+* GC content percentage
 
-Example:
+# Features:
 
-Input
+* Read DNA sequences from a FASTA file
+* Calculate sequence length
+* Calculate GC content
+* Process multiple DNA sequences
 
-Gene1
+# Input (FASTA):
+
+>Gene1
 ATGGCGATTA
 
-Output
+>Gene2
+GCGCGCATTA
 
-Name: Gene1
+# Output:
+
+Sequence: Gene1
 Length: 10 bp
-GC Content: 40%
+GC Content: 40.00%
+
+Sequence: Gene2
+Length: 10 bp
+GC Content: 70.00%
+
+# Concepts Learned
+
+* FASTA file format
+* DNA sequence length calculation
+* GC content calculation
+* File reading with `pathlib`
+
+# Concepts Practiced
+
+* Functions
+* Dictionaries
+* Loops
+* File handling
+* FASTA parsing
+* String methods (`count()`)
+
+# Used Technologies
+
+* Python 3
+* pathlib

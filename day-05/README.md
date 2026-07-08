@@ -1,12 +1,12 @@
-Day 05 - DNA Reverse Complement
+# Day 05 - DNA Reverse Complement
 
-Description:
+# Description:
 
-This project reads DNA sequences from a FASTA file, validates each sequence, generates the complementary DNA sequence, reverses the sequence, and computes the reverse complement.
+This project reads DNA sequences from a FASTA file, validates each sequence, generates the complementary DNA sequence, the reversed DNA sequence, and the reverse complement.
 
 Invalid sequences are detected and reported with the position of each invalid nucleotide.
 
-Features:
+# Features:
 
 * Read DNA sequences from a FASTA file
 * Validate DNA sequences
@@ -15,8 +15,9 @@ Features:
 * Reverse DNA sequences
 * Generate the reverse complement
 * Report invalid nucleotide positions
+* Process multiple DNA sequences
 
-Example Input:
+# Input (FASTA):
 
 >seq1
 ATGCGTAC
@@ -24,7 +25,7 @@ ATGCGTAC
 >seq2
 ATGCXTAC
 
-Example Output:
+# Output:
 
 --------------------------------------------------
 Sequence: seq1
@@ -49,12 +50,30 @@ Errors Found: 1
 Position 5: X
 
 
-Concepts Learned:
+# Concepts Learned:
 
-* FASTA parsing
-* DNA validation
-* Dictionaries
 * String slicing (`[::-1]`)
 * Reverse complement algorithm
 * Function reuse
+
+# Concepts Practiced:
+
+* Functions
+* Loops
+* Dictionaries
+* File handling
+* FASTA parsing
+* String methods
+* `enumerate()`
+* Lists
+* Tuples
+* Input validation
+* DNA validation
+* Error detection
 * Error handling
+* String manipulation
+
+# Used Technologies:
+
+* Python 3
+* pathlib

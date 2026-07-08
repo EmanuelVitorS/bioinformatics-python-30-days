@@ -2,7 +2,7 @@ Hi! I'm Emanuel, a Biomedical Science student transitioning into Bioinformatics.
 
 My goal is to strengthen my programming skills while applying them to real biological problems. Every day, I build a small project or solve a bioinformatics-related challenge to improve my understanding of computational biology.
 
-Topics:
+# Topics:
 
 * DNA sequence analysis
 * FASTA parsing
@@ -16,9 +16,11 @@ Topics:
 * Basic algorithms
 * Biological data analysis
 
-Progress:
+# Progress:
 
 * ✅ Day 1
 * ✅ Day 2
 * ✅ Day 3
 * ✅ Day 4
+* ✅ Day 5
+* ✅ Day 6
