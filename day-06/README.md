@@ -1,8 +1,10 @@
 Day 06 - DNA to Protein Translation
 
-Objective:
+Description:
 
-Translate DNA sequences into protein sequences using the standard genetic code.
+This project reads DNA sequences from a FASTA file, validates each sequence, and translates valid DNA sequences into protein sequences using the standard genetic code.
+
+Invalid sequences are detected and reported with the position of each invalid nucleotide. Translation stops at stop codons and ignores incomplete codons.
 
 The program:
 
