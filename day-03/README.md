@@ -1,6 +1,6 @@
-# Day 03 - DNA Sequence Validator
+Day 03 - DNA Sequence Validator
 
-# Description:
+Description:
 
 This project reads DNA sequences from a FASTA file and validates whether they contain only valid DNA nucleotides (A, T, G, and C).
 
@@ -11,7 +11,7 @@ If invalid characters are found, the program reports:
 * Number of errors
 * Position of each invalid character
 
-# Features:
+Features:
 
 * Read FASTA files
 * Validate DNA sequences
@@ -19,7 +19,7 @@ If invalid characters are found, the program reports:
 * Report error positions
 * Process multiple DNA sequences
 
-# Input (FASTA):
+Input (FASTA):
 
 >seq1
 ATGCGTACGTXAGCTAGCTAGC
@@ -27,7 +27,7 @@ ATGCGTACGTXAGCTAGCTAGC
 >seq2
 ATGCGATCGATCGATCGATCG
 
-# Output:
+Output:
 
 Sequence: seq1
 Status: Invalid ❌
@@ -37,7 +37,7 @@ Position 11: X
 Sequence: seq2
 Status: Valid ✅
 
-# Concepts Learned:
+Concepts Learned:
 
 * Input validation
 * Error detection
@@ -46,7 +46,7 @@ Status: Valid ✅
 * Lists
 * Tuples
 
-# Concepts Practiced:
+Concepts Practiced:
 
 * Dictionaries
 * Loops
@@ -55,7 +55,7 @@ Status: Valid ✅
 * FASTA parsing
 * String methods
 
-# Used Technologies:
+Used Technologies:
 
 * Python 3
 * pathlib

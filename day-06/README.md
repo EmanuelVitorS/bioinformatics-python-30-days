@@ -1,10 +1,10 @@
-# Day 06 - DNA to Protein Translation
+Day 06 - DNA to Protein Translation
 
-# Objective:
+Objective:
 
 Translate DNA sequences into protein sequences using the standard genetic code.
 
-# The program:
+The program:
 
 * Reads one or more DNA sequences from a FASTA file.
 * Validates each sequence.
@@ -12,7 +12,7 @@ Translate DNA sequences into protein sequences using the standard genetic code.
 * Stops translation when a stop codon is found.
 * Ignores incomplete codons at the end of the sequence.
 
-# Features:
+Features:
 
 * Read FASTA files
 * DNA sequence validation
@@ -21,9 +21,9 @@ Translate DNA sequences into protein sequences using the standard genetic code.
 * Ignores incomplete codons
 * Supports multiple sequences in a single FASTA file
 
-# Example:
+Example:
 
-# Input (FASTA)
+Input (FASTA)
 
 >seq1
 ATGGTTGAATTT
@@ -31,7 +31,7 @@ ATGGTTGAATTT
 >seq2
 ATGGTTGAATAACCC
 
-# Output:
+Output:
 
 --------------------------------------------------
 Sequence: seq1
@@ -47,13 +47,14 @@ Status: Valid ✅
 Protein:
 MVE
 
-# Concepts Learned:
+Concepts Learned:
+
 * Genetic code
 * Reading frame
 * DNA to protein translation
 * Protein sequence generation
 
-# Concepts Practiced:
+Concepts Practiced:
 
 * Dictionaries
 * Dictionary lookup
@@ -65,7 +66,7 @@ MVE
 * Codon processing
 * Stop codon recognition
 
-# Used Technologies:
+Used Technologies:
 
 * Python 3
 * pathlib

@@ -1,6 +1,6 @@
-# Day 01 - DNA Sequence Summary
+Day 01 - DNA Sequence Summary
 
-# Description: 
+Description: 
 
 This project reads DNA sequences from a FASTA file and displays basic information about each sequence.
 
@@ -10,14 +10,14 @@ For every sequence, the program reports:
 * Sequence length
 * GC content percentage
 
-# Features:
+Features:
 
 * Read DNA sequences from a FASTA file
 * Calculate sequence length
 * Calculate GC content
 * Process multiple DNA sequences
 
-# Input (FASTA):
+Input (FASTA):
 
 >Gene1
 ATGGCGATTA
@@ -25,7 +25,7 @@ ATGGCGATTA
 >Gene2
 GCGCGCATTA
 
-# Output:
+Output:
 
 Sequence: Gene1
 Length: 10 bp
@@ -35,14 +35,14 @@ Sequence: Gene2
 Length: 10 bp
 GC Content: 70.00%
 
-# Concepts Learned
+Concepts Learned
 
 * FASTA file format
 * DNA sequence length calculation
 * GC content calculation
 * File reading with `pathlib`
 
-# Concepts Practiced
+Concepts Practiced
 
 * Functions
 * Dictionaries
@@ -51,7 +51,7 @@ GC Content: 70.00%
 * FASTA parsing
 * String methods (`count()`)
 
-# Used Technologies
+Used Technologies
 
 * Python 3
 * pathlib
