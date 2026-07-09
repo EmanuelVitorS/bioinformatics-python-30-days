@@ -54,7 +54,7 @@ Concepts Practiced:
 * Functions
 * FASTA parsing
 * String methods
-* enumerate()
+* enumerate
 * Lists
 * Tuples
 * Input validation

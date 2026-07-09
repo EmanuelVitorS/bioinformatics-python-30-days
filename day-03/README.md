@@ -42,7 +42,7 @@ Concepts Learned:
 * Input validation
 * Error detection
 * Error handling
-* enumerate()
+* enumerate
 * Lists
 * Tuples
 

@@ -52,7 +52,7 @@ Concepts Practiced:
 * Loops
 * File handling
 * FASTA parsing
-* String methods (`count()`)
+* String methods
 * Dictionary iteration
 
 Used Technologies

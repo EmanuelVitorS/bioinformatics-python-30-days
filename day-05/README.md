@@ -52,7 +52,7 @@ Position 5: X
 
 Concepts Learned:
 
-* String slicing (`[::-1]`)
+* String slicing ([::-1])
 * Reverse complement algorithm
 * Function reuse
 
@@ -64,7 +64,7 @@ Concepts Practiced:
 * File handling
 * FASTA parsing
 * String methods
-* `enumerate()`
+* enumerate
 * Lists
 * Tuples
 * Input validation

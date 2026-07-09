@@ -1,6 +1,4 @@
 from pathlib import Path
-from unicodedata import name
-from xml.parsers.expat import errors
 
 def read_fasta(file_path):
     """Read a FASTA file and return a dictionary of sequences."""
@@ -126,7 +124,7 @@ def find_errors(sequence):
     return errors
 
 def main():
-    file_path = Path(r"E:\bioinformatics-python-30-days\teste_100.fasta.txt")
+    file_path = Path(r"Enter the path to your FASTA file here")
     sequences = read_fasta(file_path)
 
     for name, sequence in sequences.items():
@@ -153,7 +151,6 @@ def main():
 
             for position, nucleotide in errors:
                 print(f"Position {position}: {nucleotide}")
-
 
 if __name__ == "__main__":
     main()

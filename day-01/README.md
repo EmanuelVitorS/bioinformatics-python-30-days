@@ -40,7 +40,7 @@ Concepts Learned
 * FASTA file format
 * DNA sequence length calculation
 * GC content calculation
-* File reading with `pathlib`
+* File reading with pathlib
 
 Concepts Practiced
 
@@ -49,7 +49,7 @@ Concepts Practiced
 * Loops
 * File handling
 * FASTA parsing
-* String methods (`count()`)
+* String methods
 
 Used Technologies
 
