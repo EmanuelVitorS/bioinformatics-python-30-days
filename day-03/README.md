@@ -1,4 +1,4 @@
-Day 03 - DNA Sequence Validator
+# Day 03 - DNA Sequence Validator
 
 Description:
 

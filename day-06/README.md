@@ -1,4 +1,4 @@
-Day 06 - DNA to Protein Translation
+# Day 06 - DNA to Protein Translation
 
 Description:
 

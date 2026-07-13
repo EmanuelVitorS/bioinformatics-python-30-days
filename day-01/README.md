@@ -1,4 +1,4 @@
-Day 01 - DNA Sequence Summary
+# Day 01 - DNA Sequence Summary
 
 Description: 
 

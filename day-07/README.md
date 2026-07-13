@@ -1,4 +1,4 @@
-Day 07 - Open Reading Frame (ORF) Finder
+# Day 07 - Open Reading Frame (ORF) Finder
 
 Description:
 

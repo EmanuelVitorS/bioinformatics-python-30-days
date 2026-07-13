@@ -1,4 +1,4 @@
-Day 02 - DNA Base Counter
+# Day 02 - DNA Base Counter
 
 Description:
 

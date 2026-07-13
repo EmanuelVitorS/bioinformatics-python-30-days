@@ -1,4 +1,4 @@
-Day 04 - DNA to RNA Transcription
+# Day 04 - DNA to RNA Transcription
 
 Description:
 
