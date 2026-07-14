@@ -72,6 +72,7 @@ Concepts Learned:
 * Nucleotide comparison
 * Sequence validation
 * FASTA file structure
+* zip()
 
 
 Concepts Practiced:
@@ -86,9 +87,7 @@ Concepts Practiced:
 * File handling
 * String comparison
 * enumerate()
-* zip()
 * pathlib
-
 
 Used Technologies:
 

@@ -79,7 +79,8 @@ Concepts Practiced:
 * File handling
 * DNA validation
 * String slicing
-* enumerate
+* enumerate()
+* pathlib
 
 Used Technologies:
 

@@ -67,6 +67,8 @@ Concepts Practiced:
 * DNA validation
 * Codon processing
 * Stop codon recognition
+* enumerate
+* pathlib
 
 Used Technologies:
 

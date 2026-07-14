@@ -71,6 +71,8 @@ Concepts Practiced:
 * Mathematical expressions
 * Error detection
 * Error handling
+* enumerate()
+* pathlib
 
 Used Technologies:
 

@@ -54,6 +54,8 @@ Concepts Practiced:
 * File handling
 * FASTA parsing
 * String methods
+* enumerate()
+* pathlib
 
 Used Technologies:
 

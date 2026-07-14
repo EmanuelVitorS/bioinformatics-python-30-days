@@ -60,6 +60,8 @@ Concepts Practiced:
 * Input validation
 * Error detection
 * Error handling
+* enumerate()
+* pathlib
 
 Used Technologies:
 

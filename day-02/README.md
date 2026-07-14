@@ -54,6 +54,7 @@ Concepts Practiced:
 * FASTA parsing
 * String methods
 * Dictionary iteration
+* pathlib
 
 Used Technologies
 

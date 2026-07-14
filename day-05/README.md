@@ -72,6 +72,8 @@ Concepts Practiced:
 * Error detection
 * Error handling
 * String manipulation
+* enumerate()
+* pathlib
 
 Used Technologies:
 
