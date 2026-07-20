@@ -14,7 +14,7 @@ def read_fasta(file_path):
                 name = line[1:]
                 sequences[name] = ""
             else:
-                sequences[name] += line
+                sequences[name] += line.upper()
 
     return sequences
 
