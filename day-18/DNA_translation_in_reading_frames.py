@@ -56,16 +56,23 @@ def translate_reading_frames(sequence):
 
     return proteins
 
-def print_translation_report(sequence_name, proteins):
+def print_translation_report(sequence_name, sequence, proteins):
     print("-" * 50)
     print(f"Sequence: {sequence_name}")
     print("Status: Valid ✅")
     print()
+    print("DNA:")
+    print(sequence)
+    print()
     for frame, protein in proteins.items():
         print(f"Frame {frame}:")
-        print(protein)
+        print(f"Length: {len(protein)} amino acids")
+        if protein:
+            print(protein)
+        else:
+            print("No protein translated.")
         print()
-
+        
 def main():
     file_path = Path(input("Enter the path to your FASTA file: "))
 
@@ -90,6 +97,7 @@ def main():
 
         print_translation_report(
             sequence_name,
+            sequence,
             proteins
         )
 
