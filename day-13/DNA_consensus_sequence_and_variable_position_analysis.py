@@ -93,11 +93,25 @@ def main():
     if not sequences:
         print("No sequences found.")
         return
+    for sequence_name, sequence in sequences.items():
+        errors = find_errors(sequence)
+        
+        if errors:
+            print("-" * 50)
+            print(f"Sequence: {sequence_name}")
+            print("Status: Invalid ❌")
+            print(f"Errors found: {len(errors)}")
+        
+            for position, nucleotide in errors:
+                print(f"Position {position}: {nucleotide}")
+        
+            print()
+            continue
 
     sequence_list = list(sequences.values())
     consensus, conserved_positions, position_counts = build_consensus(sequence_list)
-    sequence_count = sequences
-    sequence_length = len(sequences)
+    sequence_count = len(sequence_list)
+    sequence_length = len(sequence_list[0])
     print_consensus_report(consensus,
     sequence_count,
     sequence_length,
